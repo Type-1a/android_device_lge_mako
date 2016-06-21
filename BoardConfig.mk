@@ -116,3 +116,13 @@ EXTENDED_FONT_FOOTPRINT := true
 MALLOC_IMPL := dlmalloc
 
 -include vendor/lge/mako/BoardConfigVendor.mk
+
+#TWRP config
+TW_THEME := portrait_hdpi
+TW_INCLUDE_CRYPTO := true
+TW_NO_USB_STORAGE := true
+RECOVERY_SDCARD_ON_DATA := true
+BOARD_HAS_NO_REAL_SDCARD := true
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+TW_MAX_BRIGHTNESS := 255
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
