@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+PRODUCT_PACKAGES += \
+    libstlport
+
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 ifeq ($(USE_SVELTE_KERNEL),true)
 LOCAL_KERNEL := device/lge/mako_svelte-kernel/kernel
