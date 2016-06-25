@@ -7,7 +7,7 @@
   },
   {
     "remote":      "type-1a",
-    "repository":  "android_external_stlport",
+    "repository":  "platform_external_stlport",
     "target_path": "external/stlport",
     "revision":    "android-6.0"
   }
